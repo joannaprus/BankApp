@@ -41,13 +41,16 @@ public class AccauntDeatils {
         System.out.println("podaj kwote wyplaty");
         long kwotaWyplaty;
         kwotaWyplaty = scanner.nextLong();
-        balance = balance - kwotaWyplaty;
+
+        if (balance<kwotaWyplaty){
+            System.out.println("brak wystarczajacych srodkow");
+        } else {
+            balance = balance - kwotaWyplaty;
+
+        }
+
 
     }
-
-
-
-
 
 
 }
