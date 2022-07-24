@@ -16,6 +16,8 @@ public class BankingApp {
                     accauntDeatils.showAccount();
                 case 2:
                     accauntDeatils.deposite();
+                case 3:
+                    accauntDeatils.withdrawl();
 
                     break;
             }
