@@ -14,6 +14,8 @@ public class BankingApp {
             switch (inputNumber){
                 case 1:
                     accauntDeatils.showAccount();
+                case 2:
+                    accauntDeatils.deposite();
 
                     break;
             }

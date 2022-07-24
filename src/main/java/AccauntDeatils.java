@@ -28,6 +28,17 @@ public class AccauntDeatils {
         System.out.println("stan konta" + balance);
 
     }
+    public void deposite(){
+        System.out.println("ile chcesz wplacic?");
+        long pieniadze;
+        pieniadze = scanner.nextLong();
+        balance =  pieniadze + balance;
+
+
+
+    }
+
+
 
 
 
