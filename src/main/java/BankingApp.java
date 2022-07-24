@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class BankingApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        AccauntDeatils accauntDeatils = new AccauntDeatils();
         System.out.println("Witaj w aplikacji bankowej");
         int inputNumber ;
         do {
@@ -11,15 +12,13 @@ public class BankingApp {
 
             switch (inputNumber){
                 case 1:
-                    System.out.println("Dziala");
+                    accauntDeatils.showAccount();
+
                     break;
             }
-
         }
         while (inputNumber !=4);
 
     }
-
-
 
 }
